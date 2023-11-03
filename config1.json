@@ -1,0 +1,27 @@
+{
+    "MAIN_FOLDER_DATASET": "datos_fluviales",
+    "MOUNT_POINT_BRONZE": "/mnt/datalakevigia-bronze",
+    "MOUNT_POINT_SILVER": "/mnt/datalakevigia-silver",
+    "BRONZE_CONTAINER_NAME": "bronze",
+    "SILVER_CONTAINER_NAME": "silver",
+    "STORAGE_ACCOUNT_NAME": "datalakevigia",
+    "email_subject": "Email Notification",
+    "sender_email_address": "ivancho8995@gmail.com",
+    "receiver_email_address": "siagudelos @gmail.com",
+    "email_smtp": "smtp.gmail.com",
+    "email_password": "dpvg jqfk gbff svcz",
+    "File": {
+        "name": "231020 BD Op Fluvial",
+        "type": "xlsx",
+        "sheet": "1. Empresas",
+        "path": "231020 BD Op Fluvial.xlsx",
+        "yaml_file": "empresa",
+        "yaml_path": "./congigg.yml",
+        "schema": {
+            "NIT": "IntegerType()",
+            "Razon_social": "StringType()"
+        }
+    }
+
+
+}
