@@ -1,0 +1,592 @@
+schema_type: dataframe
+version: 0.17.2
+columns:
+  IDENTIFICACION:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 800084048.0
+      less_than_or_equal_to: 901343976.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  SOCIEDAD_PORTUARIA:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  ZONA_PORTUARIA:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  MODO_TRANSPORTE:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  PAIS_ORIGEN:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  DEPARTAMENTO_ORIGEN:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  CIUDAD_ORIGEN:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  DEPARTAMENTO_DESTINO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  CIUDAD_DESTINO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  TIPO_TRAFICO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  TRAFICO_PORTUARIO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  TIPO_CARGA:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  CLASE_CARGA:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  TIPO_EMBALAJE:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  GRUPO_PRODUCTO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  PRODUCTO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  TONELAJE:
+    title: null
+    description: null
+    dtype: float64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 173564.99
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  NO_CONTENEDORES:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 1148.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  ANNO:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 2022.0
+      less_than_or_equal_to: 2022.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  MES:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 2.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  OPERADOR:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 9005939865.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  FECHA:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  TIPO_SERVICIO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  FECHA_INICIO_DE_FONDEO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  HORA_INICIO_DE_FONDEO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  FECHA_FIN_DE_FONDEO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  HORA_FIN_DE_FONDEO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  FECHA_DE_ARRIBO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  FECHA_DE_ZARPE:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  IDENTIFICACION_NAVIERO:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 8121587.0
+      less_than_or_equal_to: 9013778120.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  NOMBRE_NAVIERO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  XC_ZONA_PORTUARIA:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  XC_REGION:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  XC_TRAFICO_PORTUARIO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  CONS_NAVE:
+    title: null
+    description: null
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  CONS_ANEXO:
+    title: null
+    description: null
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  CONS_PRODUCTO:
+    title: null
+    description: null
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  PAIS_ORIGEN_ARREGLADO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  PAIS_DESTINO_ARREBLADO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  DEPARTAMENTO_ORIGEN_ARREGLADO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  PUERTO_ORIGEN_ARREGLADO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  DEPARTAMENTO_DESTINO_ARREGLADO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  PUERTO_DESTINO_ARREGLADO:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  XC_ORDEN_TRAFICO_PORTUARIO:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 7.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  XC_SPR_REGIONAL:
+    title: null
+    description: null
+    dtype: object
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  XC_TIPO_CONTENEDOR:
+    title: null
+    description: null
+    dtype: object
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  XC_ORDEN_TIPO_CONTENEDOR:
+    title: null
+    description: null
+    dtype: float64
+    nullable: true
+    checks:
+      greater_than_or_equal_to: 1.0
+      less_than_or_equal_to: 4.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  NRO_LOYD:
+    title: null
+    description: null
+    dtype: float64
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  REG_INVALIDO_NRO_LOYD:
+    title: null
+    description: null
+    dtype: object
+    nullable: true
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  TIPO_EMBARCACION:
+    title: null
+    description: null
+    dtype: object
+    nullable: false
+    checks: null
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  NRO_ATRAQUE:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 89.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  LONGITUD:
+    title: null
+    description: null
+    dtype: float64
+    nullable: true
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 600.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  ANCHO:
+    title: null
+    description: null
+    dtype: float64
+    nullable: true
+    checks:
+      greater_than_or_equal_to: 0.0
+      less_than_or_equal_to: 322.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  PROFUNDIDAD:
+    title: null
+    description: null
+    dtype: float64
+    nullable: true
+    checks:
+      greater_than_or_equal_to: 2.13
+      less_than_or_equal_to: 60.0
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+checks: null
+index:
+- title: null
+  description: null
+  dtype: int64
+  nullable: false
+  checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 84594.0
+  name: null
+  unique: false
+  coerce: false
+dtype: null
+coerce: true
+strict: false
+name: null
+ordered: false
+unique: null
+report_duplicates: all
+unique_column_names: false
+add_missing_columns: false
+title: null
+description: null
