@@ -1,0 +1,34 @@
+
+
+	3.3.2.	Reglas de consistencia para cada campo (JM y complementa I+D)
+	3.3.3.	Reglas de negocio para validar la consistencia de la información entre campos (JM)
+
+Archivo Formato config reglas boletin port
+Revisar archivo reglas enviado por la ST
+
+Generar otros archivos automatizamente para las otras tablas
+
+Calidad datos tablas faltantes sector portuario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
